@@ -8,5 +8,8 @@ echo "first variable : $1"
 echo "script name : $0"
 echo "who is running this : $user"
 echo "which directory : $pwd"
+echo "Home directory : $Home"
+echo "PID of the current script :$$"
+
 
 
