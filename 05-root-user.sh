@@ -8,9 +8,17 @@ if [$user -ne 0]; then
 fi 
  # echo "i am continuing......."
 echo "installing mysql"
-dnf install mysqljbkjlb -y
+dnf install mysql -y
 
-echo "i am continuing......."
+if [$? -ne 0]; then
+ echo "installing mysql...........FAILD"
+exit
+else
+ echo "installing mysql.............success"
+fi
+
+
+
 
 
 
