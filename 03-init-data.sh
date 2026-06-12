@@ -1,5 +1,5 @@
 #!/bin/bash
-int i =1
-int_name j =devops123
-
-echo "if call to sum j"
+num1=10
+num2=30
+sum = $((num1+num2))
+echo "sum is : $sum"
