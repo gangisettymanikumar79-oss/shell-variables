@@ -1,3 +1,3 @@
 #!/bin/bash
 Name="Devops"
- echo  "Hello :$Nmae"
+ echo  "Hello ,$Nmae"

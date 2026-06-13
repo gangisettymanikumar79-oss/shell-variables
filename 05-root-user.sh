@@ -22,6 +22,35 @@ else
   fi
 fi
 
+if [ $? -eq 0 ]; then
+   echo "installing nginx...........skipping"
+else
+    echo "installing nginx"
+    dnf install nginx -y
+
+   if [ $? -ne 0 ]; then
+      echo "installing nginx...........FAILD"
+      exit 1
+  else
+       echo "installing nginx.............success"
+  fi
+fi
+
+if [ $? -eq 0 ]; then
+   echo "installing nginx...........skipping"
+else
+    echo "installing nginx"
+    dnf install nginx -y
+
+   if [ $? -ne 0 ]; then
+      echo "installing nginx...........FAILD"
+      exit 1
+  else
+       echo "installing nginx.............success"
+  fi
+fi
+
+
 
 
 
