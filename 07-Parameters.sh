@@ -1,6 +1,6 @@
 #!/bin/bash
 
-show message(){
+show_message(){
 
     echo "welcome to shell script"
 }
