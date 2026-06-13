@@ -1,6 +1,6 @@
 #!/bin/bash
-    funtion_break(){
+    funtion_backup(){
         echo "performoing backlog"
-     #Break scripts into reusable functions
-
+     #Backup scripts into reusable functions
     }
+    
