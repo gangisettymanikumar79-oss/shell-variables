@@ -1,8 +1,7 @@
 #!/bin/bash
 
-### special variable ###
-
-echo "all variables passed to script : $@"
-echo "number of variable passed : $#"
-echo "first variable : $1"
-
+add_number=$1
+add_number=$2
+if [ $add_number == $sum ]; then
+    echo "sum called :$sum"
+fi
