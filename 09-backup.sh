@@ -1,7 +1,7 @@
 #!/bin/bash
-    funtion_backup(){
-        echo "performoing back........."
-     #Backup logic her
-    }
-    backup
-    
+    count=1
+    while [ $count -le 5 ]; then
+    do 
+    echo "count : $count"
+    count=(($count+1))
+    done     
